@@ -1,5 +1,4 @@
-#include <unistd.h>
-
+#include "putchar.h"
 /**
  * main - Entry point
  *
@@ -7,7 +6,7 @@
  */
 int main(void)
 {
-	char *sh = "Kenya";
+	char *sh = "putchar";
 
 	while (*sh)
 	{
